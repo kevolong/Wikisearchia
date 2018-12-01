@@ -1,0 +1,118 @@
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  background: transparent;
+  border: none !important;
+}
+
+form {
+  padding-top: 8px;
+  position: relative;
+}
+
+input[type="search"] {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 200;
+  color: black;
+  border-radius: 20px;
+  border-color: #0c0c0c;
+  border-style: solid;
+  border-width: 2px;
+  outline: none;
+  position: relative;
+  padding-left: 18px;
+  width: 220px;
+}
+
+input[type="search"]:focus {
+  box-shadow: 0 0 2px 2px #999a9b;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: searchfield-cancel-button;
+  margin-right: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 2px #717272;
+}
+
+.cardlink:link {
+  text-decoration: none;
+}
+
+.cardlink:visited {
+  text-decoration: none;
+}
+
+.cardlink:hover {
+  text-decoration: none;
+}
+
+.cardlink:active {
+  text-decoration: none;
+}
+
+.pageTitleCap {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: black;
+}
+
+.pageTitleLower {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: black;
+}
+
+#random {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.card-header {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 700;
+  color: black;
+}
+
+.card-text {
+  font-family: "Gothic A1", sans-serif;
+  color: black;
+  font-size: 17px;
+}
+
+#searchForm {
+  display: none;
+}
+
+#searchArea {
+  margin-top: -12px;
+  position: relative;
+}
+
+/* byline Initial page load fixed at bottom */
+.by-kevin-initial {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 15px;
+  color: black;
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* byline After results load */
+.by-kevin-results {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 15px;
+  color: black;
+}
